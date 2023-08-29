@@ -5,6 +5,7 @@ function getComputerChoice() {
     "scissors"
   ];
 
+  //Testing
   let randomChoice = choices[Math.floor(Math.random() * choices.length)];
   return randomChoice;
 }
