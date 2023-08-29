@@ -25,7 +25,7 @@ function rockChoice(computerSelection) {
     document.getElementById("RESULT").style.color = "#ff0000";
     document.getElementById("Summary").innerHTML = ("User: rock and Computer: " + computerSelection);
     comScore++;
-    document.getElementById("Points").imnerHTML = ("Player:");
+    document.getElementById("Points").innerHTML = ("Player:");
   }
 
   else {
@@ -33,7 +33,7 @@ function rockChoice(computerSelection) {
     document.getElementById("RESULT").style.color = "#73ff00";
     document.getElementById("Summary").innerHTML = ("User: rock and Computer: " + computerSelection);
     userScore++;
-    document.getElementById("Points").imnerHTML = ("Player:" + comScore);
+    document.getElementById("Points").innerHTML = ("Player:" + comScore);
   }
 
   let score = ("Score:" + userScore + "-" + comScore);
