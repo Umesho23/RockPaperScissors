@@ -1,0 +1,94 @@
+html{
+    font-size: 10px;
+    background: #FCF2F0;
+    background-size: cover;
+}
+
+body,html{
+    margin: 0;
+    padding: 0;
+}
+
+.RPS {
+    display: flex; 
+    flex: 1;
+    margin-top: 100px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.rpsChoice{
+  margin: auto;
+  text-align: center;
+  color: white;
+}
+
+#btn1,#btn2,#btn3{
+    background-color: #FCF2F0;
+    border: #FCF2F0;
+    gap: 50px;
+}
+
+header{
+    text-align: center;
+    margin: auto;
+    font-size: 80px;
+    font-family: 'Jost', sans-serif;
+    color: black;
+    background-color:lightblue;
+    font-weight: bolder;
+}
+
+h1{
+    text-align: center;
+    margin: auto auto 50px auto;
+    font-size: 80px;
+    font-family: 'Jost', sans-serif;
+    color: black;
+    font-weight: 200;
+
+}
+
+h2{
+    text-align: center;
+    margin: auto auto 50px auto;
+    font-size: 60px;
+    font-family: 'Jost', sans-serif;
+    font-weight: 200;
+}
+
+.history{
+    text-align: center;
+    margin: 50px auto auto auto;
+    font-size: 60px;
+    font-family: 'Jost', sans-serif;
+    color: black;
+    font-weight: 200;
+} 
+
+
+.reset{
+    margin: auto;
+    text-align: center;
+    color: white;
+    text-align: center;
+    margin: auto;
+    font-size: 80px;
+    font-family: 'Jost', sans-serif;
+    color: black;
+    border-radius: 8px;
+    border: solid 6px black;
+  }
+
+  #btn4{
+    background-color: white;
+  }
+
+  #RESULT-HEAD{
+    font-weight: bold;
+  }
+
+  #RESULT,#Summary{
+    font-size: 40px;
+  }
