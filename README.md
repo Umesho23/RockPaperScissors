@@ -1,8 +1,9 @@
 Rock, Paper, Scissors Game
 Overview:
-This project is a web-based implementation of the classic game "Rock, Paper, Scissors". Players can challenge the computer to a game where they select either Rock, 
-Paper, or Scissors and the computer randomly chooses its move. The game keeps score, and after a predetermined number of rounds, declares a winner. The interface is intuitive 
-and designed to be user-friendly, making it easy for players of all ages to understand and play.
+This project is a web-based implementation of the classic game "Rock, Paper, Scissors". 
+Players can challenge the computer to a game where they select either Rock, Paper, or Scissors and the computer randomly chooses its move.
+The game keeps score, and after a predetermined number of rounds, declares a winner. 
+The interface is intuitive and designed to be user-friendly, making it easy for players of all ages to understand and play.
 
 Features:
     Interactive Gameplay: Players can easily select their move with the click of a button.
