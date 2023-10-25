@@ -2,37 +2,63 @@
 <html lang="en">
 
 <head>
+    <!-- Metadata to define character encoding -->
     <meta charset="UTF-8">
+    
+    <!-- Link to your external CSS stylesheet -->
     <link rel="stylesheet" href="styles.css">
+    
+    <!-- Establish early connections to the web fonts to optimize loading speed -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    
+    <!-- Link to the Google Fonts you are using -->
     <link href="https://fonts.googleapis.com/css2?family=Jost:wght@200&family=Rubik+Iso&display=swap" rel="stylesheet">
+    
+    <!-- Define the title that will be shown in the browser tab -->
     <title>RPS</title>
-    <script src="rps.js" defer>
-    </script>
+
+    <!-- Link to your external JavaScript file; 'defer' makes sure the script runs after the HTML is parsed -->
+    <script src="rps.js" defer></script>
+    
+    <!-- This title seems redundant as the title is already defined above, so you might want to remove it -->
     <title>Website</title>
 </head>
 
 <body>
+    <!-- Main header for the game -->
     <header>
         ROCK PAPER SCISSORS
     </header>
-    <h1 id="SCORE">Score 5 Points to win!</h1>
+
+    <!-- Display the required score to win the game -->
+    <h1 id="SCORE">Score <span id="maxScore">5</span> Points to win!</h1>
+
+    <!-- Display the current score -->
     <h2 id="Points"></h2>
+
+    <!-- Header for the result section -->
     <h1 id="RESULT-HEAD">Result</h1>
+
+    <!-- Display the game result (Win/Lose/Tie) -->
     <h2 id="RESULT"></h2>
+
+    <!-- Placeholder for possible "Play Again" prompt or other messages -->
+    <h2 id="PlayAgain"></h2>
+
+    <!-- Summarize the choices made in the round -->
     <h2 id="Summary"></h2>
-    
+
+    <!-- Buttons for choosing Rock, Paper, or Scissors -->
     <div class="RPS">
         <button class="rpsChoice" id="btn1" name="ROCK"><img src="rockpic.png"></button>
         <button class="rpsChoice" id="btn2" name="SCISSORS"><img src="scissorspic.png"></button>
         <button class="rpsChoice" id="btn3" name="PAPER"><img src="paperpic.png"></button>
     </div>
+
+    <!-- Button to reset the game -->
     <div class="RPS">
         <button class="reset" id="btn4">RESET</button>
     </div>
-    </body>
 </body>
-
 </html>
-

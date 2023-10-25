@@ -1,94 +1,100 @@
+/* Global styles */
 html{
-    font-size: 10px;
-    background: #FCF2F0;
-    background-size: cover;
+  font-size: 10px; /* Setting the base font size */
+  background: #FCF2F0; /* Setting a light background color */
+  background-size: cover; /* Ensuring the background image (if any) covers the entire viewport */
 }
 
-body,html{
-    margin: 0;
-    padding: 0;
+body, html{
+  margin: 0; /* Removing the default margin */
+  padding: 0; /* Removing the default padding */
 }
 
+/* Styles for Rock, Paper, Scissors game layout */
 .RPS {
-    display: flex; 
-    flex: 1;
-    margin-top: 100px;
-    align-items: center;
-    justify-content: center;
-    flex-direction: row;
+  display: flex;  /* Using flexbox for layout */
+  flex: 1;
+  margin-top: 100px; /* Pushing the game layout down for better visibility */
+  align-items: center; /* Centering items vertically */
+  justify-content: center; /* Centering items horizontally */
+  flex-direction: row; /* Laying out child elements in a row */
 }
 
 .rpsChoice{
+  margin: auto; /* Centering the choice elements */
+  text-align: center; /* Centering text within the choice */
+  color: white; /* Setting text color to white */
+}
+
+/* Styles for game buttons */
+#btn1, #btn2, #btn3 {
+  background-color: #FCF2F0; /* Setting a light background color for buttons */
+  border: #FCF2F0; /* Setting border color same as background to make it invisible */
+  gap: 50px; /* Spacing between the buttons */
+}
+
+/* Header styles */
+header{
+  text-align: center; /* Centering header text */
+  margin: auto; /* Centering the header element */
+  font-size: 80px; /* Setting a large font size for the header */
+  font-family: 'Jost', sans-serif; /* Using the 'Jost' font */
+  color: black; /* Setting the font color to black */
+  background-color: lightblue; /* Giving the header a light blue background */
+  font-weight: bolder; /* Making the font weight bolder */
+}
+
+/* Styles for main heading */
+h1{
+  /* Similar styles as header but with a different margin and font weight */
+  text-align: center;
+  margin: auto auto 50px auto;
+  font-size: 80px;
+  font-family: 'Jost', sans-serif;
+  color: black;
+  font-weight: 200;
+}
+
+/* Styles for sub-heading */
+h2{
+  /* Similar styles as h1 but with a different font size */
+  text-align: center;
+  margin: auto auto 50px auto;
+  font-size: 60px;
+  font-family: 'Jost', sans-serif;
+  font-weight: 200;
+}
+
+/* Styles for history section */
+.history{
+  text-align: center; 
+  margin: 50px auto auto auto;
+  font-size: 60px;
+  font-family: 'Jost', sans-serif;
+  color: black;
+  font-weight: 200;
+}
+
+/* Styles for reset button section */
+.reset{
   margin: auto;
   text-align: center;
-  color: white;
+  font-size: 80px;
+  font-family: 'Jost', sans-serif;
+  color: black;
+  border-radius: 8px; /* Rounding the corners */
+  border: solid 6px black; /* Giving the reset button a solid black border */
 }
 
-#btn1,#btn2,#btn3{
-    background-color: #FCF2F0;
-    border: #FCF2F0;
-    gap: 50px;
+#btn4{
+  background-color: white; /* Setting background color for the fourth button (reset button) */
 }
 
-header{
-    text-align: center;
-    margin: auto;
-    font-size: 80px;
-    font-family: 'Jost', sans-serif;
-    color: black;
-    background-color:lightblue;
-    font-weight: bolder;
+/* Styles for result headings */
+#RESULT-HEAD{
+  font-weight: bold; /* Making the font weight bold for result heading */
 }
 
-h1{
-    text-align: center;
-    margin: auto auto 50px auto;
-    font-size: 80px;
-    font-family: 'Jost', sans-serif;
-    color: black;
-    font-weight: 200;
-
+#RESULT, #Summary{
+  font-size: 40px; /* Setting a larger font size for result and summary text */
 }
-
-h2{
-    text-align: center;
-    margin: auto auto 50px auto;
-    font-size: 60px;
-    font-family: 'Jost', sans-serif;
-    font-weight: 200;
-}
-
-.history{
-    text-align: center;
-    margin: 50px auto auto auto;
-    font-size: 60px;
-    font-family: 'Jost', sans-serif;
-    color: black;
-    font-weight: 200;
-} 
-
-
-.reset{
-    margin: auto;
-    text-align: center;
-    color: white;
-    text-align: center;
-    margin: auto;
-    font-size: 80px;
-    font-family: 'Jost', sans-serif;
-    color: black;
-    border-radius: 8px;
-    border: solid 6px black;
-  }
-
-  #btn4{
-    background-color: white;
-  }
-
-  #RESULT-HEAD{
-    font-weight: bold;
-  }
-
-  #RESULT,#Summary{
-    font-size: 40px;
-  }
